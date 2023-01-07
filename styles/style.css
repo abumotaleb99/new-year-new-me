@@ -1,0 +1,242 @@
+/* Basic CSS */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans";
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #f15b22;
+  border: none;
+  padding: 20px 25px;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+/* Banner Styles Start */
+header {
+  background: url("../images/banner/banner1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 500px;
+  padding: 170px 230px 140px;
+}
+
+.banner-content {
+  text-align: end;
+}
+
+.banner-container .banner-title {
+  color: #151414;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: right;
+  margin-bottom: 24px;
+}
+
+.banner .banner-description {
+  color: #444343;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: right;
+  margin-bottom: 32px;
+}
+/* Banner Styles End */
+
+/* My Failures Styles Start */
+.failures {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  padding: 130px 230px 0 230px;
+}
+
+.failures-content-right h2 {
+  color: #151414;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  margin-bottom: 24px;
+}
+
+.failures-content-right p {
+  color: #444343;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.failures-content-right ul li i {
+  color: green;
+}
+
+.failures-content-right ul li {
+  list-style: none;
+  color: #444343;
+  font-weight: 400;
+  font-size: 16px;
+  padding-bottom: 8px;
+}
+
+/* My Failures Styles End */
+
+/* My Plans Styles Start */
+.plans {
+  padding: 170px 230px 0 230px;
+}
+
+.plans .title {
+  color: #151414;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  margin-bottom: 55px;
+  text-align: center;
+}
+
+.plans-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plans .plans-item {
+  text-align: center;
+}
+
+.plans-item .logo {
+  height: 80px;
+  margin-bottom: 24px;
+}
+
+.plans-item .item-title {
+  color: #151414;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.plans-item .item-description {
+  color: #737272;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+}
+/* My Plans Styles End */
+
+/* Call to Action Styles Start */
+.call-to-action {
+  padding: 170px 230px 130px 230px;
+}
+
+.call-to-action-container {
+  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%),
+    url("../images/watch.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+  padding: 60px;
+}
+
+.call-to-action .title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  margin-bottom: 24px;
+}
+
+.call-to-action .btn-primary {
+  color: #f15b22;
+  background: #fff;
+}
+/* Call to Action Styles End */
+
+/* Footer Styles Start */
+footer {
+  display: flex;
+  padding: 170px 230px 130px 230px;
+  background: #151414;
+}
+
+.footer-left .title {
+  color: #f8f8f8;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  margin-bottom: 16px;
+}
+
+.footer-left .description {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+
+.footer-left .email {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.footer-left .phone {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.footer-left ul li {
+  list-style: none;
+  display: inline;
+  margin-right: 17px;
+}
+
+.footer-left ul li a {
+  text-decoration: none;
+}
+
+.footer-right .title {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.footer-right input[type="email"] {
+  background: transparent;
+  width: 100%;
+  padding: 20px 20px;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+  margin-bottom: 16px;
+}
+
+.footer-right input[type="email"]::placeholder {
+  color: #f3f3f3;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.footer-right input[type="submit"] {
+  color: #f15b22;
+  background: #fff;
+}
+/* Footer Styles End */
