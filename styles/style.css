@@ -196,6 +196,7 @@ nav li:hover {
 /* Footer Styles Start */
 footer {
   display: flex;
+  gap: 300px;
   padding: 170px 230px 130px 230px;
   background: #151414;
 }
